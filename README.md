@@ -46,7 +46,6 @@ python convert-vawgan.py \
 --src SF1 \
 --trg TM3 \
 --model_name [model_name].pt\
-
 --file_pattern "./dataset/vcc2016/bin/Testing Set/{}/*.bin"
 # Just an example; Please fill in `model_name`.
 ```
