@@ -1,4 +1,3 @@
-tensorflow-gpu
 soundfile
 librosa
 pyworld

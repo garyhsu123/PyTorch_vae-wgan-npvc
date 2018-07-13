@@ -2,7 +2,7 @@ import logging
 import os
 
 import numpy as np
-import tensorflow as tf
+import torch
 # from util.image import make_png_jet_thumbnail, make_png_thumbnail
 from trainer.gan import GANTrainer
 
@@ -158,7 +158,7 @@ class VAWGANTrainer(GANTrainer):
             # summary_writer=summary_writer,
             # summary_op=None,
             # is_chief=True,
-            # save_model_secs=600,
+            save_model_secs=100,
             global_step=self.opt['global_step'])
 
 

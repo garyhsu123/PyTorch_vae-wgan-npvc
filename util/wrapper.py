@@ -3,7 +3,7 @@ import os
 import sys
 from datetime import datetime
 
-import tensorflow as tf
+#import tensorflow as tf
 
 
 def get_checkpoint(logdir):

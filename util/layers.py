@@ -1,11 +1,13 @@
 # import numpy as np
 from math import pi
-import tensorflow as tf
+import torch
+from torch.autograd import Variable
+#import tensorflow as tf
 # from tensorflow.contrib import slim
-from tensorflow.python.ops.init_ops import VarianceScaling
+#from tensorflow.python.ops.init_ops import VarianceScaling
 
-EPSILON = tf.constant(1e-6, dtype=tf.float32)
-PI = tf.constant(pi, dtype=tf.float32)
+EPSILON = Variable(torch.tensor(1e-6, dtype=torch.float32),volatile = True)
+PI = Variable(torch.tensor(pi, dtype=torch.float32), volatile=True)
 
 def Layernorm(x, axis, name):
     '''
