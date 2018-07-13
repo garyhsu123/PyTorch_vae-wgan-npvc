@@ -73,8 +73,7 @@ Voice Conversion Challenge 2016 (VCC2016): [download page](https://datashare.is.
 
 
 # Folder Hierarchy
-You only have to specify the model architecture (`architecture-vawgan-vcc2016.json`),
-and prepare the audio files in the following structure:
+You only have to prepare the audio files in the following structure:
 ```
 dataset
   vcc2016
